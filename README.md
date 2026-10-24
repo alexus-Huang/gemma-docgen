@@ -7,6 +7,18 @@ architecture diagrams or screenshots), sends everything to Google's open-weight
 **Gemma 4** model through the Gemini API, and writes structured Markdown
 documentation (`README.md` or a deeper `DOCUMENTATION.md`).
 
+## Demo & Output
+
+Here is **gemma-docgen** in action, scanning a project directory containing code and architecture diagrams, then generating structured documentation via Gemma 4:
+
+### 1. Running the CLI
+![CLI Terminal Run](docs/images/preview.png)
+
+### 2. Generated Markdown Preview
+![Rendered Output](docs/images/readMe1.png)
+![Rendered Output](docs/images/readMe2.png)
+![Rendered Output](docs/images/readMe3.png)
+![Rendered Output](docs/images/readMe4.png)
 ## Why Gemma 4
 
 - **Multimodal input:** diagrams and images are read by the model and explained in the generated docs, then embedded with the correct relative paths.
